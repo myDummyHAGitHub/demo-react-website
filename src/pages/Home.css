@@ -1,0 +1,117 @@
+.grid_container {
+    display: grid; 
+    xgrid-auto-rows: 1fr; 
+    grid-template-columns: 200px 1fr 200px; 
+    xgrid-template-rows: auto 1.5fr 0.1fr; 
+    gap: 0px 10px; 
+    grid-template-areas: 
+      "mytitle mytitle mytitle"
+      "myside mycontent mycontent"
+      "myfooter myfooter myfooter"; 
+    width: 100%; 
+    height: 100%;
+    background-color:  #EDEBE6;  
+  }
+  .mytitle { grid-area: mytitle; xbackground-color: aqua; text-align: center;}
+  .myside { 
+    grid-area: myside; 
+    background-color: #d8d4ca;
+  }
+  .mycontent { 
+    grid-area: mycontent; 
+    xbackground-color:  cyan; 
+    color: #7B5F42; 
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .myfooter { 
+    grid-area: myfooter; 
+    background-color: cornflowerblue; 
+    color: #d8d4ca; 
+    text-align: center;
+  }
+
+  .myside aside{
+    background-color: #b08bd1;
+  }
+
+  .sideBarAction{
+    background-color: #1a57ff;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+  
+  } 
+  
+  /* hide toggle */
+.toggle {
+    display: none;
+  }
+
+
+
+
+
+  @media (max-width: 820px) {
+    .grid_container {
+      grid-template-areas:
+        "mytitle"
+        "mycontent"
+        "myside"
+        "myfooter";
+  
+      grid-template-columns: 1fr;
+  
+      grid-template-rows:
+        auto /* Header */
+        1fr /* Content */
+        xminmax(75px, auto) /* Sidebar */
+        auto; /* Footer */
+    }
+  
+  
+    /* hide toggle */
+    .toggle {
+      xdisplay: none;
+    }
+  }
+  
+  /* media query for nav styles */
+  @media only screen and (max-width: 820px) {
+    #aside_nav {
+      transition: transform 0.3s ease-in-out;
+      top: 0;
+      bottom: 0;
+      min-height: 100vh; /* override Safari bug */
+      position: fixed; /* or choose `absolute` depending on desired behavior*/
+      width: 300px;
+      left: -340px;
+      overflow: auto;
+    }
+
+    #aside_nav ul {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5em;
+      color: white;
+      line-height: 1.6;
+    }
+  
+    #aside_nav:target {
+      transform: translateX(340px);
+    }
+  
+    .close {
+      text-align: right;
+      display: block;
+      text-decoration: none;
+      font-size: 3em;
+      position: relative;
+      top: 0;
+    }
+  
+    /* hide toggle */
+    .toggle {
+      display: inline-block;
+    }
+  }

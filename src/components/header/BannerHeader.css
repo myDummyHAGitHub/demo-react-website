@@ -1,0 +1,11 @@
+.bannerHeader{
+	background-color: #2f3240;;
+	padding: 12px 0;
+}
+
+.bannerHeader .banner{
+	max-height: 150px;
+	width: 100%;
+	object-fit: cover;
+	object-position: bottom center;
+}
