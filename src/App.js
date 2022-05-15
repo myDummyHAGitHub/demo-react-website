@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
@@ -10,7 +10,7 @@ import NavMenu from './components/navmenu/NavMenu';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
 
        
@@ -38,7 +38,7 @@ function App() {
         
 
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
