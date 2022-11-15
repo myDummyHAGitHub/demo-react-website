@@ -6,13 +6,14 @@ const SkillListTable = (props) => {
 
   useEffect(() => {
     //let url = "http://immiks-mac-mini.local:5000";
-    let url = "https://5691-113-252-246-168.ap.ngrok.io";
+    //let url = "https://5691-113-252-246-168.ap.ngrok.io";
+    let url = "https://mydummyhagithub.github.io/demo-react-website";
 
     fetch(url,{ 
         method: "GET",
         mode: 'cors',
         headers: {
-            'Access-Control-Allow-Origin': 'https://mydummyhagithub.github.io/demo-react-website'
+            'Access-Control-Allow-Origin': 'https://5691-113-252-246-168.ap.ngrok.io'
         }
     })
     .then((response) => {
