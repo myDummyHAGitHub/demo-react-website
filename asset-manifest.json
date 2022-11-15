@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/demo-react-website/static/css/main.5b4bac81.css",
-    "main.js": "/demo-react-website/static/js/main.d5bf6be8.js",
+    "main.js": "/demo-react-website/static/js/main.bc3f055d.js",
     "static/media/RobotoFlex_thin.ttf": "/demo-react-website/static/media/RobotoFlex_thin.089f24f5533cc2e811de.ttf",
     "static/media/blue-neon.jpg": "/demo-react-website/static/media/blue-neon.6e14083dfcd69e58c99f.jpg",
     "static/media/cert_react_complete.jpg": "/demo-react-website/static/media/cert_react_complete.02cbcece1c0bcced068b.jpg",
@@ -26,10 +26,10 @@
     "static/media/navbar.png": "/demo-react-website/static/media/navbar.5a8bbdcf18df56ac1b52.png",
     "index.html": "/demo-react-website/index.html",
     "main.5b4bac81.css.map": "/demo-react-website/static/css/main.5b4bac81.css.map",
-    "main.d5bf6be8.js.map": "/demo-react-website/static/js/main.d5bf6be8.js.map"
+    "main.bc3f055d.js.map": "/demo-react-website/static/js/main.bc3f055d.js.map"
   },
   "entrypoints": [
     "static/css/main.5b4bac81.css",
-    "static/js/main.d5bf6be8.js"
+    "static/js/main.bc3f055d.js"
   ]
 }
