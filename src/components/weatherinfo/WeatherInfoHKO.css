@@ -1,0 +1,44 @@
+.weatherInfo{
+    display: flex;
+    xjustify-content: center;
+    justify-content: left;
+    align-items: center;
+    xbackground-color:darkslategray;
+    font-size: 1.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  
+  .weatherInfo span:nth-child(1){
+    color: rgb(246, 246, 246);
+  }
+  
+  .weatherInfo span:nth-child(2){
+    color: green;
+  }
+  .weatherInfo span:nth-child(3){
+    color: rgb(123, 123, 171);
+  }
+  .weatherInfo span:nth-child(4){
+    color: orange;
+  }
+  .weatherInfo span:nth-child(5){
+    color: pink;
+  }
+  
+  .weatherInfo span:nth-child(6){
+    xborder: 1px solid red;
+    display:inline-block;
+    xmax-width: 25px;
+    height: 2em;
+  }
+  .weatherInfo span:nth-child(6)>img{
+    xwidth: 100%;
+    xbackground-color: orange;
+    max-height: 2em;
+  }
+  
+  .weatherInfo .desc{
+    color: coral;
+    font-size: 0.5em;
+  }

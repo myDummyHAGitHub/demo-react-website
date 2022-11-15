@@ -1,6 +1,11 @@
 .bannerHeader{
 	background-color: #2f3240;;
-	padding: 12px 0;
+	xpadding: 12px 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 12px;
+
 }
 
 .bannerHeader .banner{

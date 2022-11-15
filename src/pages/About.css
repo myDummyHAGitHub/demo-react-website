@@ -1,0 +1,87 @@
+.halfbox{
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+  
+  .fieldsetContainer{
+    margin-top: 4em;
+  }
+  
+  .blockLayoutChildren{
+  }
+  
+  .blockLayoutChildren label{
+    display: block;
+    xwidth: 20em;
+    xborder: 1px solid green;
+  }
+  
+  
+  
+  
+  
+  
+  fieldset.style1  {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border: 2px solid orange;
+    xmargin-top: 60px;
+    position: relative;
+  }
+  
+  fieldset.style1  p {
+    margin: 1em;
+  }
+  
+  .style1 legend {
+    color: white;
+    background-color: orange;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6em;
+    position: absolute;
+    display: inline-block;
+  }
+  
+  
+  /* Style 2 */
+  fieldset.style2  {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border: 2px solid orange;
+    position: relative;
+  }
+  
+  fieldset.style2 p {
+    margin: 1em;
+  }
+  
+  fieldset.style2 legend {
+    color: white;
+    background-color: orange;
+    xfloat: right;
+    padding: 0.2em 1.5em;
+    position: absolute;
+    border-bottom-right-radius: 1em; /* for left align */
+    
+    Xborder-bottom-left-radius: 1em; /* for right align */
+    Xright:0; /* for right align */
+  }
+  
+
+  .pageContainer_about{
+    color: #7B5F42;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: #EDEBE6;
+  }
+
+  .App{
+    background-color: #EDEBE6;
+  }
+

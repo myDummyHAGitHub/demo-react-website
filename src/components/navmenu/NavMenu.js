@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { NavLink } from "react-router-dom";
 //import "./NavMenu.css";
 import styles from './NavMenu.module.css'
-import profileImg from "../navmenu/frog_porfile.jpg";
+import profileImg from "../navmenu/iak_profile.png";
 
 const NavMenu = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -13,7 +13,7 @@ const NavMenu = () => {
   }
 
   return (
-    <nav>
+    <nav style={{zIndex:1}}>
     <div className={styles.nav_container}>
         <div className={[styles.row, styles['align-items-center'], styles['justify-content-between']].join(' ')}>
             <div className={styles.logo}>
@@ -26,7 +26,7 @@ const NavMenu = () => {
                <ul>
                   <li><NavLink className={toggleActive} to="/">Home</NavLink></li>
                   <li><NavLink className={toggleActive} to="/about">About</NavLink></li>
-                  <li><NavLink className={toggleActive} to="/portfolio">Portfolio</NavLink></li>
+                  {/*<li><NavLink className={toggleActive} to="/portfolio">Portfolio</NavLink></li>*/}
                   <li><NavLink className={toggleActive} to="/contact">Contact</NavLink></li>
                </ul>
             </div>

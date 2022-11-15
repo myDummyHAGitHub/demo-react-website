@@ -1,5 +1,56 @@
-.clock{
-    color: #cddc39;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+@font-face {
+  font-family: "Roboto Flex";
+  src: local("Roboto Flex"),
+    url(../../asset/font/RobotoFlex_thin.ttf) format("truetype");
+}
+
+.timeblock {
+  display: flex;
+  xborder: 1px solid green;
+  justify-content: right;
+  align-items: center;
+  xwidth: 300px;
+  xheight: 200px;
+  font-size: 2em;
+  overflow: hidden;
+  font-family: 'Roboto Flex',Arial, Helvetica, sans-serif;
+  color: cornsilk;
+
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.timeblock > span {
+  xborder: 1px solid orange;
+  padding-right: 2px;
+}
+
+.timeblock .time-semicolon {
+  color: lightgray;
+  position: relative;
+  top: -0.1em;
+}
+
+.timeblock .time-am-pm {
+  color: skyblue;
+  xborder: 1px solid orange;
+  font-size: 0.5em;
+    /* padding-top: 0.3em; */
+    align-self: flex-start;
+}
+
+.timeblock .time-am-pm-none {
+  display: none;
+}
+
+.date {
+    display: flex;
+    xborder: 1px solid green;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 0.8em;
+    overflow: hidden;
+    font-family: 'Roboto Flex',Arial, Helvetica, sans-serif;
+    color: lightblue;
+    padding-right: 30px;
 }
