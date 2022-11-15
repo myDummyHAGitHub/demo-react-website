@@ -6,8 +6,8 @@ const SkillListTable = (props) => {
 
   useEffect(() => {
     //let url = "http://immiks-mac-mini.local:5000";
-    //let url = "https://5691-113-252-246-168.ap.ngrok.io";
-    let url = "https://mydummyhagithub.github.io/demo-react-website";
+    let url = "https://5691-113-252-246-168.ap.ngrok.io";
+    //let url = "https://mydummyhagithub.github.io/demo-react-website";
 
     fetch(url,{ 
         method: "GET",
