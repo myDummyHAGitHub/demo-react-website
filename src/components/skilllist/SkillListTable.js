@@ -5,20 +5,15 @@ const SkillListTable = (props) => {
   //const [weather, setWeather]  = useState([])
 
   useEffect(() => {
-    let url = "http://immiks-mac-mini.local:5000";
-    //let url = "https://55db-113-252-246-168.ap.ngrok.io";
+    //let url = "http://immiks-mac-mini.local:5000";
+    let url = "https://5691-113-252-246-168.ap.ngrok.io";
 
-    fetch(url,{ //this will mean the same as ip 127.0.0.1:5000
-
-    /* real world version
-    fetch(url,{ //change this for live public demo
+    fetch(url,{ 
         method: "GET",
         mode: 'cors',
         headers: {
-            'Access-Control-Allow-Origin': 'http://localhost:5000'
+            'Access-Control-Allow-Origin': 'https://mydummyhagithub.github.io/demo-react-website'
         }
-    */
-   
     })
     .then((response) => {
         return response.json();
