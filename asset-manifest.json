@@ -1,16 +1,35 @@
 {
   "files": {
-    "main.css": "/demo-react-website/static/css/main.9fbc70ea.css",
-    "main.js": "/demo-react-website/static/js/main.7ebb7310.js",
-    "static/media/banner-1920.jpg": "/demo-react-website/static/media/banner-1920.4d8cd5b1dc93dcaf56d5.jpg",
-    "static/media/websiteQRCode.png": "/demo-react-website/static/media/websiteQRCode.e987a8cdc184a243f046.png",
-    "static/media/frog_porfile.jpg": "/demo-react-website/static/media/frog_porfile.f209e187ccf3b7b7d06f.jpg",
+    "main.css": "/demo-react-website/static/css/main.5b4bac81.css",
+    "main.js": "/demo-react-website/static/js/main.af48e97c.js",
+    "static/media/RobotoFlex_thin.ttf": "/demo-react-website/static/media/RobotoFlex_thin.089f24f5533cc2e811de.ttf",
+    "static/media/blue-neon.jpg": "/demo-react-website/static/media/blue-neon.6e14083dfcd69e58c99f.jpg",
+    "static/media/cert_react_complete.jpg": "/demo-react-website/static/media/cert_react_complete.02cbcece1c0bcced068b.jpg",
+    "static/media/cert_hello_react.jpg": "/demo-react-website/static/media/cert_hello_react.e96580ad5ba10277e65f.jpg",
+    "static/media/cert_openshift_absolute.jpg": "/demo-react-website/static/media/cert_openshift_absolute.793cb3e883c2a63154fa.jpg",
+    "static/media/cert_practical_openshift.jpg": "/demo-react-website/static/media/cert_practical_openshift.20f276997dd546a3250e.jpg",
+    "static/media/cert_sqlsever_essential.jpg": "/demo-react-website/static/media/cert_sqlsever_essential.8781c9e3fad65b648d58.jpg",
+    "static/media/cert_vscode.jpg": "/demo-react-website/static/media/cert_vscode.419c907c967288c0135b.jpg",
+    "static/media/cert_pending.jpg": "/demo-react-website/static/media/cert_pending.ee9fcabe1be017651c27.jpg",
+    "static/media/websiteQRCode.png": "/demo-react-website/static/media/websiteQRCode.d3cdd0b55f8053ed85eb.png",
+    "static/media/thumb_openshift_absolute.png": "/demo-react-website/static/media/thumb_openshift_absolute.f3e38a8dc6c004f3705b.png",
+    "static/media/thumb_practical_openshift.png": "/demo-react-website/static/media/thumb_practical_openshift.238c127d99d63b59cb71.png",
+    "static/media/thumb_react_complete.png": "/demo-react-website/static/media/thumb_react_complete.b8c50f014f91346e252f.png",
+    "static/media/thumb_vscode.png": "/demo-react-website/static/media/thumb_vscode.72699f7899dd5664e440.png",
+    "static/media/thumb_sqlsever_essential.png": "/demo-react-website/static/media/thumb_sqlsever_essential.32574a11fed3a07361c4.png",
+    "static/media/my person skills DB example.png": "/demo-react-website/static/media/my person skills DB example.124ebfc6e875d3128718.png",
+    "static/media/thumb_asp_dotnet_mcv.png": "/demo-react-website/static/media/thumb_asp_dotnet_mcv.bb572a624d25501a4710.png",
+    "static/media/thumb_bootstrap4_bootcamp.png": "/demo-react-website/static/media/thumb_bootstrap4_bootcamp.def07f4e1ebcbf8620a0.png",
+    "static/media/thumb_hello_react.png": "/demo-react-website/static/media/thumb_hello_react.9bd85e558439269eb7db.png",
+    "static/media/datatableapi.png": "/demo-react-website/static/media/datatableapi.96e20f5049c6abb5cff4.png",
+    "static/media/thumb_mysql_bootcamp.png": "/demo-react-website/static/media/thumb_mysql_bootcamp.07b83746f09da1ff48c3.png",
+    "static/media/navbar.png": "/demo-react-website/static/media/navbar.5a8bbdcf18df56ac1b52.png",
     "index.html": "/demo-react-website/index.html",
-    "main.9fbc70ea.css.map": "/demo-react-website/static/css/main.9fbc70ea.css.map",
-    "main.7ebb7310.js.map": "/demo-react-website/static/js/main.7ebb7310.js.map"
+    "main.5b4bac81.css.map": "/demo-react-website/static/css/main.5b4bac81.css.map",
+    "main.af48e97c.js.map": "/demo-react-website/static/js/main.af48e97c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fbc70ea.css",
-    "static/js/main.7ebb7310.js"
+    "static/css/main.5b4bac81.css",
+    "static/js/main.af48e97c.js"
   ]
 }
